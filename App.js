@@ -23,9 +23,9 @@ export default class App extends React.Component {
           </View>
 
           <Image
-          source={require('/Volumes/Coding/ReactNative/FindJuul/assets/images/fancyBottom.png')}
-          resizeMode='contain'
-        />
+            source={require('/Volumes/Coding/ReactNative/FindJuul/assets/images/fancyBottom.png')}
+            resizeMode='contain'
+          />
         </View>
 
       </View>
