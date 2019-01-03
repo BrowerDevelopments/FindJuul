@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import FullPin from '../FindJuul/assets/components/fullPin'
-import BottomStyling from '../FindJuul/assets/components/fancyBottom'
+import FullPin from '../FindJuul/assets/components/fullPin';
 
 export default class App extends React.Component {
   render() {

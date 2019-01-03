@@ -7,24 +7,34 @@ import {TextInput, View, StyleSheet} from 'react-native';
 
 class PinNumber extends Component {
 
-     static propTypes = {
-          textStyles: PropTypes.number.isRequired,
-          boxStyles: PropTypes.any.isRequired,
-     }
-
      render = () => {
-
-          const {textStyles, boxStyles} = this.props;
 
           return (
 
-               <View style={boxStyles}>
-                    <TextInput style={textStyles}></TextInput>
+               <View style={styles.pinBox}>
+                    <TextInput style={styles.pinText}></TextInput>
                </View>
 
           );
      }
 
 }
+
+const styles = StyleSheet.create({
+     pinText: {
+          color: '#262645',
+          fontSize: 29,
+          fontWeight: 'bold',
+     },
+     pinBox: {
+          height: 50,
+          width: 50,
+          backgroundColor: '#D9D9D9',
+          alignItems: 'center',
+          justifyContent: 'center',
+          borderRadius: 10,
+          margin: 3,
+     }
+});
 
 export default PinNumber;

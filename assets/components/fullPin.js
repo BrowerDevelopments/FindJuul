@@ -12,30 +12,11 @@ class FullPin extends Component {
 
                <View style={styles.horizontalView}>
 
-                    <PinNumber
-                         textStyles={styles.pinText}
-                         boxStyles={styles.pinBox}
-                    />
-
-                    <PinNumber
-                         textStyles={styles.pinText}
-                         boxStyles={styles.pinBox}
-                    />
-
-                    <PinNumber
-                         textStyles={styles.pinText}
-                         boxStyles={styles.pinBox}
-                    />
-
-                    <PinNumber
-                         textStyles={styles.pinText}
-                         boxStyles={styles.pinBox}
-                    />
-
-                    <PinNumber
-                         textStyles={styles.pinText}
-                         boxStyles={styles.pinBox}
-                    />
+                    <PinNumber />
+                    <PinNumber />
+                    <PinNumber />
+                    <PinNumber />
+                    <PinNumber />
 
                </View>
 
@@ -47,20 +28,6 @@ class FullPin extends Component {
 const styles = StyleSheet.create({
      horizontalView: {
           flexDirection: 'row',
-     },
-     pinText: {
-          color: '#262645',
-          fontSize: 29,
-          fontWeight: 'bold',
-     },
-     pinBox: {
-          height: 50,
-          width: 50,
-          backgroundColor: '#D9D9D9',
-          alignItems: 'center',
-          justifyContent: 'center',
-          borderRadius: 10,
-          margin: 3,
      }
 });
 
